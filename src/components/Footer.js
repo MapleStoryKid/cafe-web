@@ -12,7 +12,7 @@ function Footer() {
           <a href='https://www.instagram.com/felicia__cafe/'><InstagramIcon /></a>  <FacebookIcon /> 
         </div>
         <p>
-            &copy: 2021 pedrotechpizza.com
+            &copy: 2022 Felicia.com
         </p>
       
     </div>
