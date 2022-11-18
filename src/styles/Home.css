@@ -1,7 +1,7 @@
 
 .home {
   width: 100%;
-  height: 90vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: left;
@@ -9,19 +9,23 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family:Georgia, 'Times New Roman', Times, serif
-}
-
-.headerContainer {
-  width: auto;
-  height:100%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   margin-top: 100px;
-  background-size: cover;
-  
-
 }
 
-.headerContainer h1 {
+.homeContainer {
+  width: auto;
+  height:100vh;
+  background-image: url(../assets/street-cafe-4472312_1920.jpg);
+  background-size: cover;
+  background-color: red;
+}
+
+
+
+
+
+.homeContainer h1 {
   justify-content: center;
   align-items: center;
   font-size: 140px;
@@ -30,7 +34,7 @@
   color: white;
 }
 
-.headerContainer p {
+.homeContainer p {
   padding: 0;
   font-size: 40px;
   font-weight: lighter;
@@ -38,7 +42,7 @@
   font-family:'Times New Roman', Times, serif;
 }
 
-.headerContainer button {
+.homeContainer button {
   color: black;
   border: none;
   border-radius: 5px;
@@ -52,7 +56,7 @@
   font-size: 20px;
 }
 
-.headerContainer button:hover {
+.homeContainer button:hover {
   background-color: #07090a;
   cursor: pointer;
   transition: 0.3s ease-in;
@@ -62,10 +66,11 @@
   .home {
     justify-content: center;
     align-items: center;
+    
   }
 
 
-  .headerContainer {
+  .homeContainer {
     margin-left: 0px;
     border-radius: 10px;
     padding: 10px;
@@ -78,24 +83,25 @@
     color: white;
   }
 
-  .headerContainer h1 {
+  .homeContainer h1 {
     font-size: 40px;
     height: 30px;
     color: white;
+    
   }
 
-  .headerContainer p {
+  .homeContainer p {
     font-size: 30px;
     color: white;
   }
 
-  .headerContainer button {
+  .homeContainer button {
     background-color: white;
     color: #121619;
     margin-bottom: 30px;
   }
 
-  .headerContainer button:hover {
+  .homeContainer button:hover {
     background-color: rgb(225, 225, 225);
     color: #121619;
   }

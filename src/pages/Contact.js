@@ -1,10 +1,15 @@
 import React from "react";
+import { motion } from 'framer-motion';
 import PizzaLeft from "../assets/pizzaLeft.jpg";
 import "../styles/Contact.css";
 
+
 function Contact() {
   return (
-    <div className="contact">
+    <motion.div className="contact"
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    exit={{opacity:0}}>
       <div
         className="leftSide"
         style={{ backgroundImage: `url(${PizzaLeft})` }}
@@ -12,22 +17,18 @@ function Contact() {
       <div className="rightSide">
         <h1> Contact Us</h1>
 
-        <form id="contact-form" method="POST">
-          <label htmlFor="name">Full Name</label>
-          <input name="name" placeholder="Enter full name..." type="text" />
-          <label htmlFor="email">Email</label>
-          <input name="email" placeholder="Enter email..." type="email" />
-          <label htmlFor="message">Message</label>
-          <textarea
-            rows="6"
-            placeholder="Enter message..."
-            name="message"
-            required
-          ></textarea>
-          <button type="submit"> Send Message</button>
-        </form>
+        <wrapper>
+          <label >전화번호:</label>
+          <div className="detailInfo">010-9375-2027</div>
+          <label >주소:</label>
+          <div className="detailInfo">경기도 양평군 옥천면 신복길 129 펠리시아 카페</div>
+          <label >영업시간:</label>
+          <div className="detailInfo">10:00 - 21:00 (정기 휴무: 월요일)</div>
+
+
+        </wrapper>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cafe-web/static/css/main.be9022a0.css",
+    "main.js": "/cafe-web/static/js/main.2772b013.js",
+    "static/js/787.48dbdaba.chunk.js": "/cafe-web/static/js/787.48dbdaba.chunk.js",
+    "static/media/pizzaLeft.jpg": "/cafe-web/static/media/pizzaLeft.24b07891fef1c8dae848.jpg",
+    "static/media/street-cafe-4472312_1920.jpg": "/cafe-web/static/media/street-cafe-4472312_1920.ac45289556722f1d3f53.jpg",
+    "static/media/vegan.jpg": "/cafe-web/static/media/vegan.52cbfe9e6f8d75e18f8b.jpg",
+    "static/media/multiplePizzas.jpeg": "/cafe-web/static/media/multiplePizzas.490709e2113d96ca24a1.jpeg",
+    "static/media/expensive.jpg": "/cafe-web/static/media/expensive.6449ceefce083d18dfef.jpg",
+    "static/media/pepperoni.jpg": "/cafe-web/static/media/pepperoni.d173e5db8dacdf1324ed.jpg",
+    "static/media/pineapple.jpg": "/cafe-web/static/media/pineapple.a01ab9be389f0e6bd6ec.jpg",
+    "static/media/margherita.jpg": "/cafe-web/static/media/margherita.683bc9bb07f9ff0d82df.jpg",
+    "static/media/pedrotechspecial.jpg": "/cafe-web/static/media/pedrotechspecial.425951cb0e484775fd4c.jpg",
+    "index.html": "/cafe-web/index.html",
+    "main.be9022a0.css.map": "/cafe-web/static/css/main.be9022a0.css.map",
+    "main.2772b013.js.map": "/cafe-web/static/js/main.2772b013.js.map",
+    "787.48dbdaba.chunk.js.map": "/cafe-web/static/js/787.48dbdaba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be9022a0.css",
+    "static/js/main.2772b013.js"
+  ]
+}
